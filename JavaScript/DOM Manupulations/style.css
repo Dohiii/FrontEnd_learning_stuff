@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(46, 77, 108);
+  color: white;
+}
+
+#main-heading {
+  margin-left: 35%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.boxes {
+  margin: 2rem;
+  border: 0.1rem solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 6%;
+}
+
+.boxes h1 {
+  padding: 1rem;
+}
+
+.boxes button {
+  margin: 2rem;
+  color: white;
+  background-color: rgb(46, 77, 108);
+  padding: 0.2rem 1rem;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.boxes button:hover {
+  background-color: rgb(20, 70, 120);
+}
+
+.reveal {
+  display: flex;
+  flex-direction: row;
+}
+
+.reveal button {
+  margin: 2rem;
+  color: white;
+  background-color: rgb(46, 77, 108);
+  padding: 0.2rem 1rem;
+  border-radius: 15%;
+  cursor: pointer;
+  width: 100%;
+  height: 5rem;
+}
+
+.reveal div {
+  padding: 1rem;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.hidden-content.reveal-btn {
+  display: block;
+}

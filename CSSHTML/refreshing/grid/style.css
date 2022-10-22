@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxes {
+  border: 1rem solid rgb(67, 64, 64);
+}
+.box {
+  padding: 5rem;
+}
+
+.box1 {
+  background: rgb(193, 183, 114);
+}
+.box2 {
+  background: rgb(101, 98, 163);
+}
+.box3 {
+  background: rgb(158, 113, 172);
+}
+.box4 {
+  background: rgb(95, 117, 172);
+}
+.box5 {
+  background: rgb(145, 116, 84);
+}
+.box6 {
+  background: rgb(119, 152, 86);
+}
+
+.boxes {
+  display: grid;
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-template-rows: 20rem 20rem 20rem;
+}
+.boxes div {
+  margin: 1rem;
+}
